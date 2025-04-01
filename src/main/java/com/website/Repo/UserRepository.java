@@ -11,7 +11,7 @@ import java.util.List;
 @Repository
 public interface UserRepository extends JpaRepository<UserEntity, Long> {
 
-	@Query(value = "SELECT * FROM leakage_db.users WHERE username LIKE CONCAT(:username, '%')", nativeQuery = true)
+	@Query(value = "SELECT * FROM defaultdb.users WHERE username LIKE CONCAT(:username, '%')", nativeQuery = true)
 	List<UserEntity> findByUsernameSearch(@Param("username") String username);
 
 
