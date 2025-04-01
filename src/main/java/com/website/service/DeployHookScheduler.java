@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class DeployHookScheduler {
 
-	private static final String DEPLOY_HOOK_URL = "https://api.render.com/deploy/srv-cuuqt82j1k6c73a13mmg?key=HWvPC5lB6og";
+	private static final String DEPLOY_HOOK_URL = "https://api.render.com/deploy/srv-cvlsudbuibrs73dnmad0?key=XQH_1qRYarE";
 
 	private final RestTemplate restTemplate;
 
